@@ -8,7 +8,7 @@ const projects = [
     title: "React Space",
     description:
       "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
-    getImageSrc: () => require("https://free-images.com/or/03a7/mount_merapi_volcano_indonesia.jpg"),
+    getImageSrc: () => require("../images/photo4.jpg"),
   },
   {
     title: "React Infinite Scroll",

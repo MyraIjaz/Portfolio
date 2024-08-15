@@ -23,7 +23,7 @@ const CardOne = ({ title, description, imageSrc }) => {
         textDecoration: "none",
       }}
     >
-      <Image src={imageSrc} alt={title} />
+      <Image src={imageSrc} alt={title} height="400px" />
       <VStack align="start" px={4} py={2}>
         <Heading as="h3" size="md">
           {title}
